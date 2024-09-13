@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   publicid : number = 69;
+  summary:string ="Dukhi kara hua";
   id : number = 36;
 
   title = 'BookManagement';

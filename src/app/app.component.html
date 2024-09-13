@@ -4,6 +4,8 @@
     <li><a routerLink="auth">Login page</a></li>
     <li><a routerLink="allbooks">Allbooks</a></li>
     <li><a routerLink="login">Riya Login</a></li>
-    <li><a routerLink="public/{{publicid}}/all-books/{{id}}">Parameter Route</a></li>
+    
+    <li><a routerLink="public/{{publicid}}/book-details/{{id}}/author/{{id}}"
+        [queryParams]="{title:'RiyaBudhiya',summary:summary}">Parameter Route</a></li>
 <router-outlet></router-outlet>
 <h1>Footer</h1>

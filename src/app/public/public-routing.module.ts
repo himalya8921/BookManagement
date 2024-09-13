@@ -10,7 +10,7 @@ import { HomeComponent } from './component/home/home.component';
 
 const routes: Routes = [
   {
-    path: 'public', component: PublicComponent,
+    path: 'public/:pid', component: PublicComponent,
     children:[
       {path: 'all-books/:id', component: AllBooksComponent},
       {path: 'book-details/:bookid/author/:authorid', component: BookDetailsComponent},
